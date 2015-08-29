@@ -1,0 +1,1 @@
+﻿CREATE LOGIN [web] WITH PASSWORD = '!QAZxsw2'

@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopCrawler", "TopCrawler\TopCrawler.csproj", "{BB259556-BBFC-4923-AEDB-F70A87963BCA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A0459E88-9C0F-4239-A7AD-2D5F24CFAAB1} = {A0459E88-9C0F-4239-A7AD-2D5F24CFAAB1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpamAssassin", "SpamAssassin\SpamAssassin.csproj", "{A24FD21F-AC3D-4E19-B5C0-27E88E65A7BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{A0459E88-9C0F-4239-A7AD-2D5F24CFAAB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditions", "Conditions\Conditions.csproj", "{F9EE8DB9-B415-4EE7-A6C7-165186D23DE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identification", "Identification\Identification.csproj", "{D02C3988-72F8-4C93-A37E-AD14BE17EFFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F9140080-DFE9-4EDF-8EF4-97247F118E5D}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MailWH", "MailWH\MailWH.sqlproj", "{313674D9-08ED-44EB-95A9-B4BD080C9444}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB259556-BBFC-4923-AEDB-F70A87963BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB259556-BBFC-4923-AEDB-F70A87963BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB259556-BBFC-4923-AEDB-F70A87963BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB259556-BBFC-4923-AEDB-F70A87963BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24FD21F-AC3D-4E19-B5C0-27E88E65A7BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24FD21F-AC3D-4E19-B5C0-27E88E65A7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24FD21F-AC3D-4E19-B5C0-27E88E65A7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24FD21F-AC3D-4E19-B5C0-27E88E65A7BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0459E88-9C0F-4239-A7AD-2D5F24CFAAB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0459E88-9C0F-4239-A7AD-2D5F24CFAAB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0459E88-9C0F-4239-A7AD-2D5F24CFAAB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0459E88-9C0F-4239-A7AD-2D5F24CFAAB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9EE8DB9-B415-4EE7-A6C7-165186D23DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9EE8DB9-B415-4EE7-A6C7-165186D23DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9EE8DB9-B415-4EE7-A6C7-165186D23DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9EE8DB9-B415-4EE7-A6C7-165186D23DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D02C3988-72F8-4C93-A37E-AD14BE17EFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D02C3988-72F8-4C93-A37E-AD14BE17EFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D02C3988-72F8-4C93-A37E-AD14BE17EFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D02C3988-72F8-4C93-A37E-AD14BE17EFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{313674D9-08ED-44EB-95A9-B4BD080C9444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313674D9-08ED-44EB-95A9-B4BD080C9444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313674D9-08ED-44EB-95A9-B4BD080C9444}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{313674D9-08ED-44EB-95A9-B4BD080C9444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313674D9-08ED-44EB-95A9-B4BD080C9444}.Release|Any CPU.Build.0 = Release|Any CPU
+		{313674D9-08ED-44EB-95A9-B4BD080C9444}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
